@@ -1,0 +1,12 @@
+.button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+.button:focus {
+    outline: none;
+    background: none;
+}
+.margin-left {
+    margin-left: 1rem;
+}

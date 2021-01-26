@@ -1,0 +1,18 @@
+<div class="card">
+    <div class="card-content gray-gradient">
+        <span class="card-title">Add Itemgjh</span>
+        <form (ngSubmit)="onSubmit()" class="col s6">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input type="text" id="title" placeholder="Add Title" [(ngModel)]="item.title" name="title">
+                    <label for="title">title</label>
+                </div>
+                <div class="input-field col s6">
+                    <input type="text" id="description" placeholder="Add Description" [(ngModel)]="item.description" name="description">
+                    <label for="description">Description</label>
+                </div>
+                <input type="submit" value="submit" class="btn">
+            </div>
+        </form>
+    </div>
+</div>
